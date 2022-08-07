@@ -1,0 +1,22 @@
+Les tests unitaires (ou tests de composants) : permet de tester une unité fonctionnelle (un composant) du système à développer. 
+Si cette unité à des dépendances sur d'autres unités fonctionnelles, on met en oeuvre des bouchons 
+pour simuler ces dépendances et vérifier que, seule et isolée, cette unité fait bien correctement son travail.
+
+Les tests d'intégration : cette étape, qui fait suite la procédure de tests unitaires, 
+permet d'intégrer ensemble les différentes unités (les composants) 
+et de vérifier que les communications inter-composant sont bien correctement réalisées.
+
+Les tests de validation (ou test de vérification) : on vérifie, une fois tous les composants intégrés 
+et la procédure associée passée en succès, que le logiciel fait bien ce pour quoi il a été développé.
+
+Les tests de qualification (aussi appelé test d'acceptation ou de recette) : souvent cette procédure de tests 
+est un sous-ensemble de la procédure de tests de validation. 
+La différence réside dans le fait que la qualification est prononcée en présence du client, 
+avec lequel on valide surtout les aspects fonctionnels.
+
+Pour clore ces définitions, rappelez-vous qu'un test :
+Doit vérifier qu'une seule exigence à la fois : les autres exigences seront vérifiées par d'autres tests. 
+On entend par exigence un aspect à garantir par le logiciel : il peut s'agit d'une exigence fonctionnelle ou d'une exigence technique.
+Doit produire un résultat « mesurable » : l'objectif étant de vérifier la conformité des résultats aux attendus. 
+Par exemple, un simple booléen est « mesurable » : soit c'est vrai, soit c'est faux. 
+Doit être le plus rapide possible, à l'exception de certains tests techniques (tests de robustesse notamment).

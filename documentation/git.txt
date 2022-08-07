@@ -1,0 +1,59 @@
+git --version
+git config // voir et modifier les paramètres
+//l’option --global va nous permettre d’indiquer à Git que les param renseignés 
+//doivent être utilisés globalement (c’est-à-dire pour tout projet Git).
+git config --global user.name "Mohammed Choukrani"
+git config --global user.email "mohammed.choukrani@sogeti.com"
+git config user.name
+git config user.email
+//configurer un éditeur différent
+git config --global core.editor "'C:/Users/mchoukra/Documents/tool/npp/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
+git init -b main
+
+git init
+git add *.txt
+git commit
+git commit -a (add + commit)
+
+git clone projet-git projet-git-2
+
+git rm test.txt //supprimer un fichier et l’exclure du suivi de version
+git rm --cached fichier.txt //exclure un projet du suivi mais le garder dans le projet
+git reset HEAD fichier.txt //retirer un fichier de l’index
+git mv ancien-nom-fichier nouveau-nom-fichier //renommer un fichier
+
+git log //consulter l'historique des commit
+git log -p //afficher les différences
+git log --pretty=oneline
+
+git commit --amend //ecraser un commit
+git restore LISEZMOI.txt //rollback un fichier modifié
+
+git branch test //créer une nouvelle branche
+git checkout test //déplacer le head sur la branche souhaitée
+git checkout -b //créer une branche et basculer 
+git merge test //merger test dans master
+git branch -d test //supprimer branche
+
+git clone url
+git fork url
+
+git remote //afficher la liste des serveurs distants des dépôts
+git remote -v //afficher les URLs stockées
+
+git fetch [nom-distant] //tirer les données dans le dépôt local mais sous sa propre branche 
+                        ce qui signifie que ces données ne sont pas fusionnées avec nos autres travaux 
+                        et que notre copie de travail n’est pas modifiée
+
+git pull //récupérer les données d’une branche distante 
+         et les fusionner automatiquement dans notre branche locale
+		 
+git remote show [nom-du-depot] //obtenir des informations sur un dépôt distant
+
+git push [nom-distant] [nom-local]
+git push origin master
+git pull [nom-distant] [nom-local]
+
+git remote add origin <REMOTE_URL>
+git remote -v

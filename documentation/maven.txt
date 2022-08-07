@@ -1,0 +1,10 @@
+Le cycle de vie par défaut de Maven contient plusieurs phases dont les principales sont : 
+validate, compile, test, package, install et deploy.
+la phase package exécute le goal jar:jar pour un artéfact de type jar, 
+le goal war:war pour un artéfact de type war.
+
+Il existe deux autres phases utiles: clean, site
+
+Les phases et les goals peuvent être exécutés l'un après l'autre
+mvn clean dependency:copy-dependencies package
+efface les fichiers générés, copie les dépendances et exécute les phases jusqu'à la phase package

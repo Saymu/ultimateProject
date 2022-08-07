@@ -1,0 +1,39 @@
+scrum est un framework de gestion de projet qui permet d'améliorer la productivité se son équipe.
+
+le scrum master s'assure que les principes de scrum sont respectés, facilite la communication au sein
+de l'équipe et cherche à augmenter la productivité et le savoir-faire de son équipe.
+
+le product owner est un expert métier qui joue le rôle du client, il définit les spécifications fonctionnelles,
+établit la priorité des fonctionnalités à développer et les valide.
+
+les sprints sont des itérations de quelques semaines qui rythment le cycle de vie Scrum.
+
+le product backlog est le référentiel des exigences initiales qui est dressé et hiérarchisé avec le client.
+Il ne doit pas nécessairement contenir toutes les fonctionnalités attendues dès le début du projet, 
+il va évoluer durant le projet en parallèle des besoins du client.
+
+une user story décrit une fonctionnalité, elle comporte un id, un nom, une importance,
+une estimation, un demo et une note.
+
+le sprint planning meeting est une réunion de planification qui est organisé avant chaque sprint. 
+Ce planning sélectionne dans le product backlog les exigences les plus prioritaires pour le client. 
+Elles seront développées, testées et livrées au client à la fin du sprint. 
+Elles constituent le sprint backlog, un sous ensemble du product backlog.
+
+le Scrum ou mêlée qui est une réunion d’avancement (environ 15 min), est organisé chaque jour au cours du sprint
+avec tous les membres de l’équipe afin de s’assurer que les objectifs du sprint seront tenus. 
+Chaque jour, après la réunion Scrum, le Scrum Master maintient un graphique appelé sprint burndown chart. 
+Ce graphique donne une très bonne vision de ce qui a été fait et du rythme de travail de l’équipe. 
+Il permet également d’anticiper si toutes les stories du Sprint Backlog 
+seront terminées à la fin de l’itération ou non.
+Durant la réunion chaque membre de l’équipe doit prendre la parole et présenter principalement les choses suivantes :
+
+-Ce que j’ai fait hier et les éventuels problèmes rencontrés
+-Ce que je vais faire aujourd’hui
+-Est ce que j’ai des difficultés pour continuer mon travail.
+-En faisant cet exercice quotidiennement chaque membre de l’équipe est au courant 
+de ce que font ses collègues et il peut coordonner son travail et aider ou se faire aider en cas de difficultés.
+
+A la fin d’un sprint, on fait une démonstration au client des derniers développements, 
+le Sprint Review Meeting. C’est aussi l’occasion de faire un un bilan, 
+sur le fonctionnement de l’équipe et de trouver des points d’amélioration.
